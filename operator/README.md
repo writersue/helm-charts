@@ -46,3 +46,9 @@ orchestrator will be 'k8s' or 'openshift' depending on which orchestrator is bei
 values.yaml is the customized helm-chart configuration parameters. This is a required parameter and must contain the list of all backend FlashArrays and FlashBlades. All parameters that need a non-default value must be specified in this file.
 
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
