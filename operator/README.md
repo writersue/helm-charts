@@ -24,7 +24,7 @@ The install script will do the following:
 3. Create RBAC rules for the Operator.
 The PSO-Operator needs the following Cluster-level Roles and RoleBindings.
 | Resource | Permissions | Notes |
-| --- | --- | --- |
+|----------|-------------|-------|
 | Namespace | Get | PSO-Operator needs the ability to get created namespaces |
 | Storageclass | Create/Delete | Create and cleanup storage classes to be used for Provisioning |
 | ClusterRoleBinding | Create/Delete | PSO-Operator needs to create and cleanup a ClusterRoleBinding called 'pure-provisioner-rights' to ClusterRole system:persistent-volume-provisioner for provisioning PVs |
